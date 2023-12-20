@@ -7,7 +7,7 @@ public class Ejercicio4 {
         String inicial;
         boolean bandera = true;
         while (bandera) {
-            System.out.println("Ingrese la letra que desee");
+            System.out.println("Ingrese una letra");
             inicial = entrada.nextLine().toUpperCase();
             for (String estudiante : estudiantes) {
                 if (estudiante.toUpperCase().startsWith(inicial)) {
