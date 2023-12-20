@@ -30,7 +30,7 @@ public class Taller09 {
         for (int i = 1; i< notasEst.length; i++) {
            if (notasEst[i] > promedio)
                System.out.println("Notas por encima del promedio" + notasEst[i]);
-          else 
+           else 
                if(notasEst[i] < promedio){
                    System.out.println("Notas por debajo del promedio" + notasEst[i]);
         }
